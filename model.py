@@ -7,8 +7,7 @@ from manager import ModelManager
 
 
 class Model():
-    
-  
+
     
     def __init__(self, model_class, scoring = "f1", param_grid = None, *args, **kwargs):
         
